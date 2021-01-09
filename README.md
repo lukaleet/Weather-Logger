@@ -1,5 +1,5 @@
 # Weather-Logger
-Alpha version of Weather Logger. More info soon
+Alpha version of Weather Logger. More info below
 
 UPDATE 30.12.2020:
 
