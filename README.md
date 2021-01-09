@@ -2,6 +2,7 @@
 Alpha version of Weather Logger. More info soon
 
 UPDATE 30.12.2020:
+
 Project seems to work, but I've decided to suspend it. I won't provide any documentation or support. My aim was to make project which combines microcontrollers (logging and sending temperature via Arduino C/C++ based language with ESP8266, which is WiFi module), backend server system using C# with validation and simple frontend client with html and very, very simple JS. I wanted to read temperatures at home from any location in the world with Internet access. I've given up on this because there are better systems for that like Domoticz with rich documentation and support.
 
 ---------------------------------------------------------------------
@@ -19,6 +20,7 @@ And log gathered data in json format to the database using C# .Net Core web API 
 ---------------------------------------------------------------------
 
 Difficulties I faced:
+
 Most of Arduino third party libraries have very poor documentation, especially "ArduinoJson". A lot of example videos (and even web docs) are/were outdated, because of that it took me numerous of tries before I suceeded to actually log data from few sensors. And then even more tries to actually serialize the data to json successfully.
 
 Anyway, I'm satisfied with the work done. I managed to develop and finish the project the way I liked it. 
@@ -27,4 +29,5 @@ Projects of this type usually uses MySQL and PHP combined with Arduino/compatibl
 ---------------------------------------------------------------------
 
 Where's the diagram?
+
 For people who actually got here to gain some info, sorry for lack of wiring diagram. I used pencil and paper to design it, because I couldn't find simple and free program (Fritzing is not free anymore and I don't have backup of old build). It was very simple though, only temperatures sensors connected to one pin using One Wire + resistor. I guess you can figure diagram out by reading .ino file.
